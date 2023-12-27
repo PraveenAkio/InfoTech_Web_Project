@@ -1,0 +1,172 @@
+
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+    background-color: #FFE5E5;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgba(255, 255, 255, 0);
+    border-width: 5px;
+    width: 5%;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.colored-section {
+    /* background-color: #FFE5E5; */
+    color: #000000;
+}
+
+/* ------------------ Navigation Bar ------------------ */
+.navbar {
+    padding: 8px 0 8px 0;
+    background-color: #756AB6;
+    /* position: sticky;
+    top: 0; */
+}
+
+.navbar-brand {
+    position: relative;
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    left: 20px;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: Light;
+}
+
+.row {
+    padding: 1rem 0 0 1rem;
+}
+
+.profile {
+    margin: 20px 0 50px 0;
+}
+
+.profile-dp {
+    align-items: center;
+    border-radius: 50%;
+    width: 10em;
+    height: 12em;
+}
+
+.my-desc {
+    color: #40514E;
+    width: 50%;
+    margin: auto;
+}
+
+/* ------------------ LOGIN ------------------ */
+
+strong {
+    color: #69609c;
+}
+
+.login {
+    width: 250px;
+    margin: auto;
+    text-align: left;
+    align-items: center;
+}
+
+.input {
+    border-radius: 100px;
+}
+
+.uname{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+.pass{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+
+#logbtn {
+    position: relative;
+    left: 90px;
+}
+    /* SKILLS */
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.web-img {
+    border-radius: 100px;
+    float: left;
+    width: 20%;
+    margin-right: 30px;
+}
+
+.net-img {
+    border-radius: 100px;
+    float: left;
+    width: 20%;
+    margin-right: 30px;
+
+}
+
+/* ------------------ Section Features ------------------ */
+
+#features {
+    position: relative;
+}
+
+.feature-names {
+    font-size: 30px;
+}
+
+.col-lg-4 {
+    padding: 5%;
+}
+
+.fa-solid {
+    color: #756AB6;
+    margin-bottom: 1rem;
+}
+
+.fa-solid:hover{
+    color: #e08447;
+}
+
+/* ------------------ Footer Section ------------------ */
+
+.social-icon {
+    color: #000;
+    margin: 5px 10px 10px;
+}
+
+.fa-brands:hover {
+    color: #e08447;
+}
+
+
+
+
+
