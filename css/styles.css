@@ -1,8 +1,8 @@
-
 body {
     font-family: 'Montserrat';
     text-align: center;
     background-color: #FFE5E5;
+    color: #000000;
 }
 
 html{
@@ -21,12 +21,8 @@ hr {
     padding: 0px;
 }
 
-.colored-section {
-    /* background-color: #FFE5E5; */
-    color: #000000;
-}
-
 /* ------------------ Navigation Bar ------------------ */
+
 .navbar {
     padding: 8px 0 8px 0;
     background-color: #756AB6;
@@ -129,7 +125,6 @@ strong {
     float: left;
     width: 20%;
     margin-right: 30px;
-
 }
 
 /* ------------------ Section Features ------------------ */
@@ -166,7 +161,4 @@ strong {
     color: #e08447;
 }
 
-
-
-
-
+/* ------------------ END ------------------ */
