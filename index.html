@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+	<!-- Style Sheets -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/styles.css">
+	<!-- Bootstrap Scripts -->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- ICON -->
+	<link rel="icon" href="images/smile.png">
+</head>
+<body>
+	<!-- Nav Bar -->
+	<div class="container-fluid">
+		<nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+			<a class="navbar-brand" href="">InfoTech</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarContent">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#footer">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Title -->
+		<div class="row">
+			<div class="col-lg-6 profile">
+				<img class="profile-dp" src="Images/dp.png" alt="Profile-Photo">
+				<h2>Hello.</h2>
+				<p class="my-desc">I am an Web and .NET Developer. I'm a Fresher who made lots of small projects. I ❤️ to explore new technologies.</p>
+			</div>
+
+			<div class="col-lg-6 profile">
+				<h2>LogIn</h2><br>
+				<div class="login">
+				<form id="login" method="get" action="">
+					<label><strong>User Name</strong>
+					</label>
+					<input class="uname" type="text" placeholder="Username">
+					<br><br>
+					<label><strong>Password</strong>
+					</label>
+					<input class="pass" type="Password" placeholder="Password">
+					<br><br>
+					<!-- <input type="checkbox">
+					<label>Remember Me</label> -->
+					<br>
+					<input class="btn btn-outline-success" id="logbtn" type="button" value="LogIn">
+					<br><br>
+				</form>
+			</div>
+		</div>
+	</div>
+	<hr>
+	</>
+
+	<section>
+		<div class="row">
+			<h2 id="skills" >My Skills</h2>
+			<div class="col-lg-6 col-sm-12 skills skill-row">
+				<img class="web-img" src="Images/web.png" alt="web-image">
+				<h3>Web Developer</h3>
+				<p>I started learning to code when I was 15 years old because wanted to make my own games. Over time, I have gained wealth of experience designing and developing web applications.</p>
+			</div>
+
+			<div class="col-lg-6 col-sm-12 skills skill-row">
+				<img class="net-img" src="Images/net.png" alt="net-image">
+				<h3>.NET Developer</h3>
+				<p>I started learning to code when I was 15 years old because wanted to make my own games. Over time, I have gained wealth of experience designing and developing mobile and web applications.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- About -->
+	<section class="white-section" id="about">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<i class="fa-solid fa-solid fa-user fa-4x"></i>
+					<h3 class="feature-names">Communiction</h3>
+					<p>So easy to communicate, by Multiple Languages fluently.</p>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<i class="fa-solid fa-heart fa-4x"></i>
+					<h3 class="feature-names">Friendly</h3>
+					<p>Friendy with everyone, for best TeamUp.</p>
+				</div>
+				<div class="col-lg-4">
+					<i class="fa-solid fa-bolt fa-4x"></i>
+					<h3 class="feature-names">On Time</h3>
+					<p>Finish the work on Correct Date or your money back.</p>
+				</div>
+			</div>
+		</div>
+		<hr>
+	</section>
+
+	<section>
+		<!-- Footer -->
+		<footer class="white-section" id="footer">
+			<div class="container-fluid">
+				<a href="https://www.facebook.com"><i class="social-icon fa-brands fa-facebook fa-2x"></i></a>
+				<a href="https://twitter.com"><i class="social-icon fa-brands fa-twitter fa-2x"></i></a>
+				<a href="https://github.com"><i class="social-icon fa-brands fa-github fa-2x"></i></a>
+				<a href="https://www.instagram.com"><i class="social-icon fa-brands fa-instagram fa-2x"></i></a>
+				<a href="https://mail.google.com"><i class="social-icon fa-solid fa-envelope fa-2x"></i></a>
+				<p>© Copyright 2024 InfoTech</p>
+			</div>
+		</footer>
+	</section>
+</body>
+</html>
